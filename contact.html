@@ -18,7 +18,7 @@
         <div class="nav-links" id="navLinks">
          <i class="fa fa-times" onclick="hideMenu()"></i>
           <ul>
-            <li><a href="indec.html">HOME</a></li>
+            <li><a href="index.html">HOME</a></li>
             <li><a href="about.html">ABOUT</a></li>
             <li><a href="course.html">COURSE</a></li>
             <li><a href="blog.html">BLOG</a></li>
@@ -47,7 +47,7 @@
             <div>
      <i class="fa fa-home"></i>
      <span>
-        <h5>Xyz road,ABC building</h5>
+        <h5>6, Mathura Rd, Sector 6</h5>
         <p>Faridabad, HAryana</p>
         </span>
         </div>
@@ -67,11 +67,11 @@
     </div>
 </div>
        <div class="contact-col">
-        <form action="">
-           <input type="text" placeholder="Enter your name" required>
-           <input type="email" placeholder="Enter email address" required>
-           <input type="text" placeholder="Enter your subject" required>
-           <textarea rows="8" placeholder="Message" required></textarea>
+        <form action="formhandler.php" method="post">
+           <input type="text" name="name" placeholder="Enter your name" required>
+           <input type="email" name="email" placeholder="Enter email address" required>
+           <input type="text" name="subject" placeholder="Enter your subject" required>
+           <textarea rows="8" name="message" placeholder="Message" required></textarea>
            <button type="submit" class="hero-btn red-btn">Send Message</button>
         </form>
         </div>
